@@ -2,6 +2,9 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 import os
+import flipkart_products_20250405
+
+
 
 st.title("Flipkart Product Analysis")
 data = pd.read_csv("flipkart_products_20250405.csv")
