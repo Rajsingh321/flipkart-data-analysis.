@@ -48,6 +48,7 @@ Copiers and Accessories are top contributors to profit, while some product lines
 st.subheader("📜Insights")
 st.write(insights)
 
+st.subheader("📊 Power BI Dashboard")
 
 try:
     img = Image.open("mega 1 website/page 1.png")
