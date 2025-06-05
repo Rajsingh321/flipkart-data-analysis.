@@ -51,24 +51,24 @@ st.write(insights)
 
 try:
     img = Image.open("mega 1 website/page 1.png")
-    st.image(img, caption="📄 Page 1", use_column_width=True)
+    st.image(img, caption="📄 Page 1")
 except FileNotFoundError:
     st.warning(" ")
 
 try:
     img = Image.open("mega 1 website/page 2.png")
-    st.image(img, caption="📄 Page 2", use_column_width=True)
+    st.image(img, caption="📄 Page 2")
 except FileNotFoundError:
     st.warning(" ")
 
 try:
     img = Image.open("mega 1 website/page 3.png")
-    st.image(img, caption="📄 Page 3", use_column_width=True)
+    st.image(img, caption="📄 Page 3")
 except FileNotFoundError:
     st.warning(" ")
 
 try:
     img = Image.open("mega 1 website/page 4.png")
-    st.image(img, caption="📄 Page 4", use_column_width=True)
+    st.image(img, caption="📄 Page 4")
 except FileNotFoundError:
     st.warning(" ")
